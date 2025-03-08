@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Bugger"
+  name: "bugger®"
   text: "An ECR Debugger"
-  tagline: My great project tagline
+  tagline: Your debugger sucks
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Why bugger® is better
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API Reference
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Simple
+    details: A 2-year-old could set this up.
+  - title: Powerful
+    details: Detailed statistics enable efficient profiling. Intutive yet expressive queries power data manipulation.
+  - title: Focused
+    details: bugger® will always have first-class support for ecr.
 ---
 
