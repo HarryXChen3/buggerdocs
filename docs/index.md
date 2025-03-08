@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "bugger®"
   text: "An ECR Debugger"
-  tagline: Your debugger sucks
+  tagline: Your debugger sucks.
   actions:
     - theme: brand
       text: Why bugger® is better
-      link: /why-bugger-is-better
+      link: /setup/why-bugger-is-better
     - theme: alt
       text: API Reference
-      link: /api-reference
+      link: /api/scheduler
 
 features:
   - title: Simple

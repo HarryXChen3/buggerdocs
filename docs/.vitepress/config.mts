@@ -9,17 +9,29 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Setup', link: '/setup/why-bugger-is-better' },
+      { text: 'API', link: '/api/scheduler' }
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Why bugger® is better', link: '/why-bugger-is-better' },
-          { text: 'API Reference', link: '/api-reference' }
-        ]
-      }
+      "/setup": [
+        {
+          text: "Setup",
+          items: [
+            { text: 'Why bugger® is better', link: '/setup/why-bugger-is-better' },
+            { text: 'Installation', link: '/setup/installation' }
+          ]
+        }
+      ],
+
+      "/api": [
+        {
+          text: 'API',
+          items: [
+            { text: 'Scheduler', link: '/api/scheduler' }
+          ]
+        }
+      ],
     ],
 
     socialLinks: [
