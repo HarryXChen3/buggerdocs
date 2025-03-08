@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Bugger",
   description: "An ECR Debugger",
+  base: "/buggerdocs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
