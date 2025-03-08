@@ -13,7 +13,7 @@ export default defineConfig({
       { text: 'API', link: '/api/scheduler' }
     ],
 
-    sidebar: [
+    sidebar: {
       "/setup": [
         {
           text: "Setup",
@@ -32,7 +32,7 @@ export default defineConfig({
           ]
         }
       ],
-    ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/HarryXChen3/buggerdocs' }
