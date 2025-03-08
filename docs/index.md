@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Why bugger® is better
-      link: /markdown-examples
+      link: /why-bugger-is-better
     - theme: alt
       text: API Reference
-      link: /api-examples
+      link: /api-reference
 
 features:
   - title: Simple
