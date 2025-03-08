@@ -18,8 +18,7 @@ features:
   - title: Simple
     details: A 2-year-old could set this up.
   - title: Powerful
-    details: Detailed statistics enable efficient profiling. Intutive yet expressive queries power data manipulation.
+    details: Detailed statistics enable efficient profiling. Intuitive yet expressive queries power data manipulation.
   - title: Focused
     details: bugger® will always have first-class support for ecr.
 ---
-
