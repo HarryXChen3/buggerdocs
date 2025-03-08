@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Bugger",
+  title: "bugger®",
   description: "An ECR Debugger",
   base: "/buggerdocs/",
   themeConfig: {
@@ -16,14 +16,14 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Why bugger® is better', link: '/why-bugger-is-better' },
+          { text: 'API Reference', link: '/api-reference' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/HarryXChen3/buggerdocs' }
     ]
   }
 })
